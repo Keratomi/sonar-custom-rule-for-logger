@@ -1,0 +1,13 @@
+{
+  "title": "Find a logger definition in the class",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [
+    "keratomi"
+  ],
+  "defaultSeverity": "Minor"
+}

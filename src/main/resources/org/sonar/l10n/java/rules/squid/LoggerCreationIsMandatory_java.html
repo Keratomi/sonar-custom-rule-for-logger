@@ -1,0 +1,21 @@
+<p>Find a logger definition in the class</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+    public class Foo {
+        Foo() {...}
+    }
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+    public class Foo {
+        private static final Logger LOGGER = ... // continue e.g.: LoggerFactory.getLogger(Foo.class)
+        Foo() {...}
+    }
+</pre>
+I you want to ignore class the scan, you can use @NoLogger (or any other custom) annotation, for example:
+<pre>
+    @NoLogger
+    public class Foo {
+        Foo() {...}
+    }
+</pre>
