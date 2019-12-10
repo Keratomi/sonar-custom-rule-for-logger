@@ -23,3 +23,6 @@ I you want to ignore class the scan, you can use @NoLogger (or any other custom)
         Foo() {...}
     }
 </pre>
+
+#### Todos:
+* create tests for rule
