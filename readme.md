@@ -16,7 +16,7 @@ Examples:
         Foo() {...}
     }
 </pre>
-I you want to ignore class the scan, you can use @NoLogger (or any other custom) annotation, for example:
+If you want to ignore class the scan, you can use @NoLogger (or any other custom) annotation, for example:
 <pre>
     @NoLogger
     public class Foo {
