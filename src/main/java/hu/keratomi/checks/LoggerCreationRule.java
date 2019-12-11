@@ -26,17 +26,17 @@ public class LoggerCreationRule extends BaseTreeVisitor implements JavaFileScann
     @RuleProperty(
             defaultValue = DEFAULT_VALUE_OF_LOGGER_INTERFACE_FULLY_QUALIFIED_NAME,
             description = "Fully qualified name of logger interface")
-    protected String loggerFullyQualifiedName;
+    protected String loggerFullyQualifiedName = DEFAULT_VALUE_OF_LOGGER_INTERFACE_FULLY_QUALIFIED_NAME;
 
     @RuleProperty(
             defaultValue = DEFAULT_VALUE_OF_LOGGER_INSTANCE_NAME,
             description = "Fully qualified name of logger instance")
-    protected String loggerInstanceName;
+    protected String loggerInstanceName = DEFAULT_VALUE_OF_LOGGER_INSTANCE_NAME;
 
     @RuleProperty(
             defaultValue = DEFAULT_VALUE_OF_MARKER_ANNOTATION_NAME,
             description = "Name of annotation which marks class to ignore scan")
-    protected String markerAnnotationName;
+    protected String markerAnnotationName = DEFAULT_VALUE_OF_MARKER_ANNOTATION_NAME;
 
     @Override
     public void scanFile(JavaFileScannerContext context) {
