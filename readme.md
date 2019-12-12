@@ -1,4 +1,4 @@
-This is a copy of https://github.com/SonarSource/sonar-custom-rules-examples/tree/master/java-custom-rules
+This is a partial copy of https://github.com/SonarSource/sonar-custom-rules-examples/tree/master/java-custom-rules
 
 Custom Sonar rule for checking logger declaration in all class, except which are marked with special annotation like @Nologger.
 
